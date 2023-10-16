@@ -1,0 +1,12 @@
+p{font-size: 20px;}
+h1{font-size: 40px;}
+h2{font-size: 30px;}
+a{font-size: 15px;}
+ol,li,ul{font-size: 18px;}
+.g1{color: green;}
+.vo1{color: violet;}
+.re1{color: red;}
+.b1{color: blue;}
+.db{border: double 4px;}
+.one .g1{font-size: 60px;}
+div.two h2.vo1{font-size: 55px;}

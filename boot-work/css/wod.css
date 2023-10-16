@@ -1,0 +1,40 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Courgette&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* font-family: 'Courgette', cursive;
+font-family: 'Poppins', sans-serif;*/
+.t1 h1{ font-family: 'Courgette', cursive;
+}
+.t1{background-image: url(../images/wod/back/60a51be4e25d05001880c6c3.webp);background-repeat:no-repeat;background-size: cover;color: azure; background-position: center;}
+img{width: 100%;}
+.org{color: orange;}
+.grn{color: green;}
+.m1{ background-image: url(../images/wod/mid/thailand-resort.webp);background-position: center; }
+.orange{
+    background-color: rgba(201, 75, 25, 0.7); padding: 100px 200px 150px 80px; height: 100%;width: 100%; text-align: justify;}
+    .btn-outline-primary{
+         border-color: white;
+         color: white;
+    }
+    .btn-outline-primary:hover{ background-color: transparent; color: black; border-color: black;}
+    .mb1{padding: 10px 15px 10px 15px;
+      } 
+   
+    .im2 img{height: 200px;
+     padding: 15px 10px 15px 10px;}
+  .b1{text-align: center;}
+  .c1{background-image: url(../images/wod/bot/80390-Blue-Mountain-Ski-Resort.jpg); background-position: center; background-size: cover;background-repeat: no-repeat;color: azure;}
+  .green1{
+    background-color: rgba(8, 170, 8 ,0.7);text-align:start; padding: 100px 200px 120px 80px;
+  }
+  .map1 img{
+    height: 30%;
+  }
+  .f1{padding: 70px 40px 200px 30px;}
+  .f2{padding:  70px 40px 70px 30px;}
+  
+  @media (min-width: 768px) and (max-width: 991.98px) { 
+    h1{font-size: 25px;}
+  p{font-size: 10px;}
+  h2{font-size: 15px;}
+  }
+  

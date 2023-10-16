@@ -1,0 +1,10 @@
+.topview{background-image:url(/image/best/background/i9nx4py8mn.webp) ; background-repeat: no-repeat; background-size:cover;}
+h1{font-size:14px;}
+.topview .main1{text-align: center;}
+div.main1 h2.head1{font-style: italic;font-size: 4opx;color: aqua;}
+.top1,.top2,.top3,.top4{display: inline-block; text-align: center;width: 24%; border: 1%; color: azure; }
+.t1,.t2,.t3,.t4{border-radius: 50%;}
+.mid1,.mid2,.mid3{display: inline-block;font-size: 15px;text-align: center;}
+.mid1 .miview{text-align: center;}
+.mid1,.mid2,.mid3,.imgmid4{width: 24%;border: 1%;}
+.b1,.b2,.b3,.b4{display: inline-block;text-align: center;width: 24%;border: 1%;}

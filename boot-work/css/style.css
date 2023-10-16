@@ -1,0 +1,27 @@
+img
+{width: 100%;}
+.a1{
+    background-image: url(../images/rest/background/i9nx4py8mn.webp);background-size: cover;background-repeat: no-repeat;
+    text-align: center;
+    color: red;
+}
+.a1 img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+.m1 img{ width: 70px;
+    height: 70px;
+    border-radius: 50%;
+   
+}
+.m2 img{   max-height: 600px;
+}
+.m1{padding: 10px 50px 10px 15px;}
+button{ width: 100%}
+.b1 img{width: 150px;
+height: 150px;
+}
+.b2 img{width: 60%;
+}
+.b1{padding: 10px 40px 10px 15px;}
