@@ -6,15 +6,16 @@ img{width: 100%;}
     
 }
 .c1{text-align: center;}
-.m1{background-image:url(../images/VEG/friuts/tumble-of-strawberries.webp);background-position: center;background-repeat: no-repeat; }
-.m3{background-image: url(../images/VEG/friuts/green-beet-orange-juice-55497feec4024f94a846793c2f310e69.webp);background-position: center; background-repeat: no-repeat;}
-.m4{background-image: url(../images/VEG/vegetables/tomatoes-healthiest-vegetables-1645751323.webp);background-position: center;background-repeat: no-repeat; }
-.m6{background-image: url(../images/VEG/friuts/flying-dried-fruits-and-nuts.webp);background-position: center; background-repeat: no-repeat; }
+.m1{background-image:url(../images/VEG/VEGBF/category-1.jpg.webp);background-position: center;background-repeat: no-repeat; background-size: cover;}
+
+.m4{background-image: url(../images/VEG/VEGBF/category-2.jpg.webp);background-position: center;background-repeat: no-repeat;background-size: cover; }
+.m3{background-image: url(../images/VEG/VEGBF/category-3.jpg.webp);background-position:center; background-repeat: no-repeat; background-size: cover;}
+.m6{background-image: url(../images/VEG/VEGBF/category-4.jpg.webp);background-position: center; background-repeat: no-repeat; background-size: cover;}
  .m1,.m3,.m4,.m6{
     height: 250px;
  }
 
-.m5{background-image: url(../images/VEG/vegetables/360_F_545474888_xq2iUjyEXPRruiIYQ62U0LCtKBiZMFk9.webp);background-position: center;background-repeat: no-repeat;padding-top: 50px  ;  text-align: center; background-size: cover;
+.m5{background-image: url(../images/VEG/VEGBF/category.jpg.webp);background-position: center;background-repeat: no-repeat;padding-top: 50px  ;  text-align: center; background-size: cover;
     height: 500px;
 }
 
@@ -26,7 +27,7 @@ img{width: 100%;}
     padding: 10px 20px 10px 20px;
     
 }
-.f1{background-image:url(../images/VEG/vegetables/bg_3.jpg.webp);background-position-x: left;background-repeat: no-repeat;padding: 90px 1px 1px 90px;}
+.f1{background-image:url(../images/VEG/vegetables/bg_3.jpg.webp);background-position: center;background-repeat: no-repeat;padding: 90px 10px 300px 10px;text-align:center;}
 
 #typesbar{
     
