@@ -16,10 +16,10 @@ img{width: 100%;}
  }
 
 .m5{background-image: url(../images/VEG/VEGBF/category.jpg.webp);background-position: center;background-repeat: no-repeat;padding-top: 50px  ;  text-align: center; background-size: cover;
-    height: 500px;
+     
 }
 
-.s1{color: aquamarine;}
+.s1{color: aquamarine;  }
 .p1{text-align: center;}
 .r1 img{
     height: 200px;
@@ -27,8 +27,23 @@ img{width: 100%;}
     padding: 10px 20px 10px 20px;
     
 }
-.f1{background-image:url(../images/VEG/vegetables/bg_3.jpg.webp);background-position: center;background-repeat: no-repeat;padding: 90px 10px 300px 10px;text-align:center;}
+.f1{background-image:url(../images/VEG/vegetables/bg_3.jpg.webp);background-position: center;background-repeat: no-repeat;  background-size: cover;} 
+.t2{padding: 100px 50px ;}
 
-#typesbar{
-    
+ 
+.r2{ border: solid; overflow: hidden;}
+
+.r2 img{    transition: 0.1s;}
+.r2:hover img{
+
+
+    transform: scale(1.1);
 }
+.sld3{
+    transition: 0.3s;
+}
+.h50{ max-height: 600px;}
+.h50 img{
+    object-position: bottom 200px right 0px;
+}
+ 
