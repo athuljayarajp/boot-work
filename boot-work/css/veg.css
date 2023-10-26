@@ -31,7 +31,7 @@ img{width: 100%;}
 .t2{padding: 100px 50px ;}
 
  
-.r2{ border: solid; overflow: hidden;}
+.r2{ border: solid; overflow: hidden; margin-bottom: 30px;}
 
 .r2 img{    transition: 0.1s;}
 .r2:hover img{
@@ -40,10 +40,127 @@ img{width: 100%;}
     transform: scale(1.1);
 }
 .sld3{
-    transition: 0.3s;
+    transition: 0.3s ease-in-out;
 }
 .h50{ max-height: 600px;}
 .h50 img{
     object-position: bottom 200px right 0px;
 }
  
+/* testimonial  */
+
+.testimonial{
+    width: 100%;
+     
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    color: #3d5a80;
+  
+    &-slide{
+        padding:40px 20px;
+    }
+    &_box{   
+  
+        &-top{
+            background-color: #e0fbfc;
+            padding: 30px;
+            border-radius: 15px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            text-align: center;
+            box-shadow: 5px 5px 20px rgba(152, 193, 217, 0.493);
+        }
+        &-icon{
+            padding: 10px 0;
+            i{
+                font-size: 25px;
+                color: #14213d;
+            }
+        }
+        &-text{
+            padding: 10px 0;
+            p{
+                color: #293241;
+                font-size: 14px;
+                line-height: 20px;
+                margin-bottom: 0;
+            }
+        }
+        &-img{
+            padding: 20px 0 10px;
+            display: flex;
+            justify-content: center;
+            img{
+                width: 70px;
+                height: 70px;
+                border-radius: 50px;
+                border: 2px solid #e5e5e5;
+            }
+        }
+        &-name{
+            padding-top: 10px;
+            h4{
+                font-size: 20px;
+                line-height: 25px;
+                color: #293241;
+                margin-bottom: 0;
+            }
+        }
+        &-job{
+            p{
+                color: #293241;
+                font-size: 14px;
+                text-transform: uppercase;
+                letter-spacing: 3px;
+                line-height: 20px;
+                font-weight: 300;
+                margin-bottom: 0;
+            }
+        }
+    }
+  }
+
+
+  #countdown li {
+    display: inline-block;
+    font-size: 1em;
+    list-style-type: none;
+    padding: 1em;
+    text-transform: uppercase;
+  }
+  
+  #countdown li span {
+    display: block;
+    font-size: 4rem;
+  }
+
+  @media all and (max-width: 768px) {
+     
+    
+    #countdown li {
+      font-size: calc(1.125rem * var(--smaller));
+    }
+    
+    #countdown li span {
+      font-size: calc(3.375rem * var(--smaller));
+    }
+  }
+
+.r2{ overflow: hidden;}
+  .carousel-caption { top:100px;}
+  .txtdec{ text-decoration: line-through;}
+
+
+  .onover{ opacity: 0; position: absolute;}
+
+
+  .r2:hover .onover{ opacity: 1; bottom: 50px; left:130px;}
+
+  .r2:hover .current{ opacity: 0;}
+
+
+  .abpos{ position: absolute; z-index: 1000; background-color: green; padding: 5px 10px;}
