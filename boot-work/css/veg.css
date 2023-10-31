@@ -32,7 +32,11 @@ img{width: 100%;}
 }
 .f1{background-image:url(../images/VEG/vegetables/bg_3.jpg.webp);background-position: center;background-repeat: no-repeat;  background-size: cover; padding: 50px 100px;} 
 .t2{padding: 100px 50px ;}
+.c1 img{transition: 0.1s;}
+.c1:hover img{
+  transform: scale(1.1);
 
+}
  
 .r2{ border: solid; overflow: hidden; margin-bottom: 30px;}
 .r2 img{    transition: 0.1s;}
@@ -44,12 +48,15 @@ img{width: 100%;}
 .sld3{
     transition: 0.3s ease-in-out;
 }
-.h50{ max-height: 600px;font-style: font-family: 'Indie Flower', cursive;
-  font-family: 'Shadows Into Light', cursive;;}
+.h50{ max-height: 600px;;}
 .h50 img{
     object-position: bottom 200px right 0px;
+
 }
  
+.h50 h1{font-size: 100px;font-style: font-family:'Indie Flower', cursive;
+  font-family: 'Shadows Into Light', cursive;}
+  @media (min-width:300px)and (max-width:1880px)
 /* testimonial  */
 
 .testimonial{
@@ -168,13 +175,35 @@ img{width: 100%;}
 
   @media (min-width: 300px) and (max-width: 767.98px){
     .r2:hover .onover, .r2:active .onover, .r2:focus .onover{ opacity: 1; bottom: 50px; left:230px;}
-  }
-  @media (min-width: 768px) and (max-width: 991.98px){
-    .r2:hover .onover, .r2:active .onover, .r2:focus .onover{ opacity: 1; bottom: 50px; left:152px;}
+
+    .carousel-caption { top:10px;}
+
+  .h50 h1 {
+    font-size: 30px;}  
+
   }
 
+  @media (min-width: 768px) and (max-width: 991.98px){
+    .r2:hover .onover, .r2:active .onover, .r2:focus .onover{ opacity: 1; bottom: 50px; left:152px;}
+    .h50 h1 {
+      font-size: 50px;}  
+
+      .carousel-caption { top:50px;}
+
+  }
+
+
   @media (min-width: 992px) and (max-width: 1199.98px){
+
+
     .r2:hover .onover, .r2:active .onover, .r2:focus .onover{ opacity: 1; bottom: 50px; left:100px;}
+
+    .h50 h1 {
+      font-size: 70px;}  
+
+      .carousel-caption { top:150px;}
+
+
   }
 
 
@@ -190,6 +219,8 @@ img{width: 100%;}
 .h23{padding-top: 50px; padding-bottom: 100px;}
 .l24{padding: 100px 100px;}
 .g22{color: greenyellow; font-style: italic;}
+
+
 
 
 ul {
